@@ -3,13 +3,6 @@ const overlay = document.getElementById("overlay");
 const saibaMais = document.getElementById("saiba-mais");
 const modulo = document.getElementById("modulo");
 
-let template = `<img src="./assets/icons/close.svg" id="close" class="close" alt="" /><h2>${title}</h2> <p>
-O câmbio de 6 marchas da CB 500X oferece maior confiança e performance
-na pilotagem, tornando as subidas de marcha mais leves e as reduções
-mais suaves!
-</p> <img src="./assets/img/moto2.svg" alt="" />
-<button class="btn quero-assinar">Quero assinar</button>`;
-
 closeBtn.addEventListener("click", () => {
   overlay.classList.add("change");
   setTimeout(() => {
@@ -20,13 +13,19 @@ closeBtn.addEventListener("click", () => {
 
 saibaMais.addEventListener("click", () => {
   overlay.style.display = "block";
-
-  let filhos = cardBody.childNodes;
-  let title = filhos.item(0).textContent;
-
-  modulo.innerHTML = template;
   overlay.classList.add("aparecer");
+  createModuleContent();
+
   setTimeout(() => {
     overlay.classList.remove("aparecer");
   }, 1000);
 });
+
+function createModuleContent() {
+  let title = cardBody.childNodes.item(0).textContent;
+  let img = cardBody.childNodes.item(1).src;
+  let titleModulo = modulo.childNodes.item(3);
+  let imgModulo = modulo.childNodes.item(7);
+  imgModulo.src = img;
+  titleModulo.textContent = `${title}`;
+}
