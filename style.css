@@ -50,7 +50,11 @@
 .change {
   animation: sumir 1s ease-in;
 }
+.aparecer {
+  animation: aparecer 1s ease-out;
+}
 .overlay {
+  display: none;
   background-color: rgba(223, 223, 223, 0.9);
   width: 100%;
   position: absolute;
@@ -85,6 +89,15 @@
     opacity: 1;
   }
   50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
     opacity: 0;
   }
   100% {
