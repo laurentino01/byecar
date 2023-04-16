@@ -211,6 +211,12 @@
   }
 }
 @media (max-width: 425px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .modulo > img:last-of-type {
     width: 200px;
   }
@@ -245,12 +251,6 @@
   }
   .card-body {
     width: 250px;
-  }
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 }
 /* KeyFrame Area */
