@@ -5,6 +5,7 @@ const modulo = document.getElementById("modulo");
 
 closeBtn.addEventListener("click", () => {
   overlay.classList.add("change");
+
   setTimeout(() => {
     overlay.style.display = "none";
     overlay.classList.remove("change");
