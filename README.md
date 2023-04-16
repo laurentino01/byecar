@@ -2,13 +2,13 @@
 
 ### Sumário
 <ol>
-<li><a href="https://github.com/laurentino01/byecar/new/master?readme=1#descri%C3%A7%C3%A3o-do-projeto">Descrição do projeto</a></li>
-<li><a href="https://github.com/laurentino01/byecar/new/master?readme=1#primeira-funcionalidade">Primeira Funcionalidade</a></li>
-<li><a href="https://github.com/laurentino01/byecar/new/master?readme=1#segunda-funcionalidade">Segunda Funcionalidade</a></li>
-<li><a href="https://github.com/laurentino01/byecar/new/master?readme=1#desktop">Design Desktop</a></br></li>
-<li><a href="https://github.com/laurentino01/byecar/new/master?readme=1#mobile">Design Mobile</a></br></li>
-<li><a href="https://github.com/laurentino01/byecar/new/master?readme=1#link">Link do Site</a></br></li>
-<li><a href="https://github.com/laurentino01/byecar/new/master?readme=1#tecnologias">Tecnologias Utilizadas</a></br></li>
+<li><a href="https://github.com/laurentino01/byecar#descri%C3%A7%C3%A3o-do-projeto">Descrição do projeto</a></li>
+<li><a href="https://github.com/laurentino01/byecar#primeira-funcionalidade">Primeira Funcionalidade</a></li>
+<li><a href="https://github.com/laurentino01/byecar#segunda-funcionalidade">Segunda Funcionalidade</a></li>
+<li><a href="https://github.com/laurentino01/byecar#desktop">Design Desktop</a></br></li>
+<li><a href="https://github.com/laurentino01/byecar#mobile">Design Mobile</a></br></li>
+<li><a href="https://github.com/laurentino01/byecar#link">Link do Site</a></br></li>
+<li><a href="https://github.com/laurentino01/byecar#tecnologias">Tecnologias Utilizadas</a></br></li>
 </ol>
 
 
