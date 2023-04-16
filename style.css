@@ -209,14 +209,14 @@
   .modulo > p {
     font-size: 14px;
   }
-}
-@media (max-width: 425px) {
   .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+}
+@media (max-width: 425px) {
   .modulo > img:last-of-type {
     width: 200px;
   }
